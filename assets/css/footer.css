@@ -1,0 +1,129 @@
+.footer-wrap {
+    width: 100%;
+    background: #f0f0f0;
+}
+.footer-wrap .footer {
+    width: 1200px;
+    min-height: 230px;
+    margin: 0 auto;
+}
+.footer-wrap .footer .footer-head li a:hover, .footer-wrap .footer li a:hover {
+    color: #333;
+}
+.footer-wrap .footer-head {
+    position: relative;
+    padding-top: 50px;
+    background: url("../img/footer-logo.png") 940px 95px no-repeat;
+    background-size: 256px;
+}
+.footer-wrap .footer-head > div {
+    width: 176px;
+    min-height: 130px;
+    float: left;
+    padding-bottom: 30px;
+}
+.footer-wrap .footer-head > div:first-child {
+    padding-left: 30px;
+}
+.footer-wrap .footer-head > div .title {
+    font-size: 20px;
+    color: #333;
+    font-weight: 400;
+    cursor: default;
+}
+.footer-wrap .footer-head > div .link-list {
+    padding-top: 12px;
+}
+.footer-wrap .footer-head > div .link-list li {
+    height: 32px;
+    line-height: 32px;
+}
+.footer-wrap .footer-head > div .link-list li a {
+    font-size: 14px;
+    color: #747b81;
+    transition: color .3s linear;
+    text-decoration: none;
+}
+.footer-wrap .footer-head > .footer-icon .link-list li a:hover .icon {
+    background-image: url("../img/icon_foot_hover.png");
+}
+.footer-wrap .footer-head > .footer-icon .link-list li a:hover + .footer-wx-layer {
+    display: block;
+}
+.footer-wrap .footer-head > div .link-list li a .icon {
+    display: inline-block;
+    margin-right: 6px;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background-image: url("../img/icon_foot_normal.png");
+    background-repeat: no-repeat;
+    margin-top: -4px;
+    margin-left: -2px;
+    -webkit-transition: background-image .3s;
+    transition: background-image .3s;
+}
+.footer-wrap .footer-head > div .link-list li a .icon-wx {
+    background-position: -28px 0;
+    pointer-events: none;
+}
+.footer-wrap .footer-head > div .link-list li a .icon-wb {
+    background-position: -84px 0;
+}
+.footer-wrap .footer-wx {
+    position: relative;
+}
+.footer-wrap .footer-wx .footer-wx-layer {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    bottom: 0;
+    left: 80px;
+    display: none;
+}
+.footer-wrap .footer-wx .footer-wx-layer .footer-wx-img {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background: url("../img/wx.jpg") no-repeat;
+    background-size: 200px;
+    margin: 20px auto;
+}
+.footer-wrap .footer-links, .footer-wrap .footer-copyright {
+    display: inline-block;
+    width: 45%;
+    color: #747b81;
+    font-size: 14px;
+    /*float: left;*/
+    padding: 6px 0 20px 0;
+    cursor: default;
+}
+.footer-wrap .footer-links ul li {
+    border-right: 1px #aaa solid;
+    display: inline;
+    padding-right: 10px;
+    margin-right: 9px;
+}
+.footer-wrap .footer-links ul li:last-child {
+    border-right: none;
+}
+.footer-wrap .footer-links ul li a {
+    text-decoration: none;
+    color: #747b81;
+    -webkit-transition: color .3s linear;
+    transition: color .3s linear;
+}
+.footer-wrap .footer-copyright {
+    text-align: right;
+    float: right;
+}
+.footer-wrap .footer-copyright a {
+    color: #747b81;
+}
+
+.footer-wrap .footer-bottom {
+    width: 100%;
+    height: 15px;
+}
